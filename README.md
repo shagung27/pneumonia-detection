@@ -74,10 +74,16 @@ These values were chosen based on common transfer learning setups and adjusted s
 The model is evaluated using:
 
 * **AUC-ROC** – Measures model’s ability to separate classes regardless of threshold.
+  ![auc-roc](https://github.com/user-attachments/assets/adf100b0-f7aa-42db-981a-b961607a03ab)
 * **Confusion matrix** – Shows TP, FP, TN, FN.
+  ![confusion-matrix](https://github.com/user-attachments/assets/207530db-503f-4a95-b567-ded47b8a7d2f)
 * **Classification report** – Includes accuracy, precision, recall, F1.
+  ![classification-report](https://github.com/user-attachments/assets/bfca57cf-fb2b-4074-9039-4f435b5880eb)
+
+  
 
 The notebook will save the best-performing model automatically and load it for final evaluation.
+
 
 ---
 
